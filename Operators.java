@@ -21,23 +21,23 @@ class Main {
         double result = 0;
         
         switch (choice) {
-            case 1: // Addition
+            case 1: 
                 result = num1 + num2;
                 System.out.println("Result of addition: " + result);
                 break;
                 
-            case 2: // Subtraction
+            case 2: 
                 result = num1 - num2;
                 System.out.println("Result of subtraction: " + result);
                 break;
                 
-            case 3: // Multiplication
+            case 3: 
                 result = num1 * num2;
                 System.out.println("Result of multiplication: " + result);
                 break;
                 
-            case 4: // Division
-                if (num2 != 0) { // Checking for division by zero
+            case 4: 
+                if (num2 != 0) {      
                     result = num1 / num2;
                     System.out.println("Result of division: " + result);
                 } else {
