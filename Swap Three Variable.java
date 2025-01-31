@@ -11,12 +11,8 @@ class Main
 	public static void main(String []args)
 	{
 		a = 10; b = 20; c = 30;
-		System.out.println("Before swapping a = " +
-								a + ", b = " + b +
-									", c = " + c);					
+		System.out.println("Before swapping a = " +a + ", b = " + b +", c = " + c);					
 		swapThree();
-		System.out.println("After swapping a = " + 
-								a + ", b = " + b +
-									", c = " + c);
+		System.out.println("After swapping a = " + a + ", b = " + b +", c = " + c);
 	}
 }
